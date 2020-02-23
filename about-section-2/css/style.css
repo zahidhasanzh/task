@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.fullwide-bg-area{
+	background-image:url(../img/bg.jpg);
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+.fullwide-bg-area {
+  margin: 70px 0;
+}
+.margin-minus {
+  margin: -70px 0;
+  padding:120px 70px;
+}
+.dark-bg {
+  background: #2B2F41;
+  color: #fff;
+}
+.borderd-btn {
+  display: inline-block;
+  color: #fff;
+  border: 2px solid #CEA874;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+.margin-minus .borderd-btn {
+  margin-top: 35px;
+}
+.boxed-content h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.borderd-btn {
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #CEA874;
+	padding: 10px 30px;
+	font-size: 18px;
+}
+.author-name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 23px;
+	margin-top: 30px;
+	position: relative;
+	padding-left: 42px;
+}
+.author-name span {
+	font-size: 17px;
+	font-weight: 300;
+	opacity: .6;
+}
+.borderd-btn {
+	display: inline-block;
+	color: #fff;
+	border: 2px solid #CEA874;
+	padding: 10px 30px;
+	font-size: 18px;
+}
+.margin-minus .borderd-btn {
+	margin-top: 35px;
+	margin-left: 10px;
+}
+.author-name::before {
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 50%;
+	height: 2px;
+	width: 30px;
+	background: #fff;
+	margin-top: -2px;
+}
+.boxed-content {
+	position: relative;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+.boxed-content::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: -40px;
+	width: 50px;
+	height: 50px;
+	border-left: 1px solid #fff;
+	border-top: 1px solid #fff;
+}
+.boxed-content::after {
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: -70px;
+	width: 50px;
+	height: 50px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+
