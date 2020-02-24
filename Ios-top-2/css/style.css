@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:400;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.project-bg-1{background-image:url(../img/photo-1.jpg);}
+.project-bg-2{background-image:url(../img/photo-2.jpg);}
+.project-bg-3{background-image:url(../img/photo-3.jpg);}
+.project-bg-4{background-image:url(../img/photo-4.jpg);}
+.project-bg-5{background-image:url(../img/photo-5.jpg);}
+.project-bg-6{background-image:url(../img/photo-6.jpg);}
+.project-bg-7{background-image:url(../img/photo-7.jpg);}
+.project-bg-8{background-image:url(../img/photo-8.jpg);}
+.project-bg-9{background-image:url(../img/photo-9.jpg);}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.project-filter {
+  margin: 0 0 50px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+.project-filter li.active {
+	border-color: #333;
+}
+.project-filter li {
+	font-weight: 700;
+	font-size: 18px;
+	display: inline-block;
+	color: #777;
+	border-bottom: 2px solid #fff;
+	margin: 0 15px;
+  cursor: pointer;
+}
+
+.single-project-item {
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  display: table;
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+.project-hover {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  padding: 30px;
+  transition: .3s;
+  text-transform: lowercase;
+  transform: scale(.8);
+  opacity: 0;
+  visibility: hidden;
+}
+.project-hover::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: -1;
+  opacity: 0.7;
+}
+.project-hover h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.project-hover p:last-child {
+  margin: 0;
+}
+.single-project-item::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  border-right: 1px solid #000;
+  z-index: 2;
+  border-top: 1px solid #000;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.single-project-item::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  border-left: 1px solid #000;
+  z-index: 2;
+  border-bottom: 1px solid #000;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.single-project-item:hover .project-hover {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.single-project-item:hover::before, .single-project-item:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
