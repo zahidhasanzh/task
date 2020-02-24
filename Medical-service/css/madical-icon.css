@@ -1,0 +1,35 @@
+	/*
+  	madical-icon icon font: madical-icon
+  	Creation date: 31/01/2020 13:47
+  	*/
+
+@font-face {
+  font-family: "MadicalIcon";
+  src: url("../fonts/madical-icon.eot");
+  src: url("../fonts/madical-icon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/madical-icon.woff2") format("woff2"),
+       url("../fonts/madical-icon.woff") format("woff"),
+       url("../fonts/madical-icon.ttf") format("truetype"),
+       url("../fonts/madical-icon.svg#madical-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "MadicalIcon";
+    src: url("../fonts/madical-icon.svg#madical-icon") format("svg");
+  }
+}
+
+[class^="madical-icon-"]:before, [class*=" madical-icon-"]:before,
+[class^="madical-icon-"]:after, [class*=" madical-icon-"]:after {   
+  font-family: MadicalIcon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.madical-icon-neurology:before { content: "\f100"; }
+.madical-icon-tooth:before { content: "\f101"; }
+.madical-icon-cardiology:before { content: "\f102"; }

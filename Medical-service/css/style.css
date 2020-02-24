@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');
+
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+
+.service-box-bg{background:url(../img/bg-1.jpg);}
+.service-box-bg-2{background:url(../img/bg-2.jpg);}
+.service-box-bg-3{background:url(../img/bg-3.jpg);}
+
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-titel {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-titel h2 {
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+.service-box-bg {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+  z-index: 1;
+  height: 250px;
+  text-align: center;
+  border-radius: 5px 5px 0px 0px;
+  
+}
+.service-box-bg i {
+  width: 70px;
+  height: 70px;
+  background: #25385B;
+  display: block;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  bottom: -35px;
+  margin-left: -35px;
+  transition:.3s;
+}
+.service-box-bg i::before {
+  margin: 0;
+  font-size: 28px;
+  line-height: 65px;
+}
+.single-service-box {
+  border: 1px solid #E6E6E6;
+  border-radius: 5px 5px 0px 0px;
+}
+.single-service-box h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #0C0E12;
+	text-align: center;
+	padding: 20px;
+	padding-top: 50px;
+	margin: 0;
+	transition:.3s;
+}
+.single-service-box:hover .service-box-bg i {
+	background: #00C9CF;
+	border-color: #25385B;
+}
+.single-service-box:hover h2{
+	background:#25385B;
+	color:#fff;
+}
+
+/*main menu*/
+
+.mainmenu-area ul {
+  background: #25385B;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu-area ul li{
+  display: inline-block;
+}
+
+.mainmenu-area ul li a {
+  display: block;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 18px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/*drop down menu*/
+.mainmenu-area ul li{
+  position: relative;
+}
+.mainmenu-area ul li ul {
+  position: absolute;
+  left: -20px;
+  top: 63px;
+  width: 180px;
+  z-index: 2;
+  opacity:0;
+  visibility:hidden;
+  transition:.3s;
+
+}
+.mainmenu-area ul li ul li a {
+  text-transform: capitalize;
+}
+.mainmenu-area ul li ul li {
+  display: block;
+}
+.mainmenu-area ul li ul li a {
+  text-transform: capitalize;
+  padding-top: 8px;
+  padding-bottom:8px;
+}
+
+.mainmenu-area ul li:hover ul{
+  opacity:1;
+  visibility:visible;
+  left: 0;
+}
+.mainmenu-area ul li:hover > a{
+  background: red;
+}
+.mainmenu-area ul li > a{
+  transition:.3s;
+}
+
+/* 2nd level menu*/
+.mainmenu-area li:hover ul ul{
+  opacity:0;
+  visibility:hidden;
+  left:180px;
+}
+.mainmenu-area ul li ul li:hover > ul{
+  top:0;
+  opacity:1;
+  visibility:visible;
+}
+
+/*video part*/
+.video-bg{
+  background:url(https://img.youtube.com/vi/QTJ9kdR_9N8/hqdefault.jpg); 
+}
+.video-playbtn{
+  display: block;
+  height:450px;
+  background-repeat: no-repeat;
+  background-size:137%;
+  background-position: center;
+  background-color:#ddd;
+  display: table;
+  width: 100%;
+  color:#fff;
+  transition:.3s;
+}
+.video-playbtn:hover{
+  background-size:142%;
+}
+.video-overlay {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px;
+  position:relative;
+  z-index:1;
+  color:#fff;
+}
+.video-overlay::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #25385B;
+  z-index: -1;
+  opacity: .7;
+}
+.boxed-plus {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  line-height: 26px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.video-overlay p {
+  opacity: .7;
+  color:#fff;
+}
+.video-overlay p.video-top-disc {
+  opacity: 1;
+}
+.video-overlay {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  padding: 50px;
+  position: relative;
+  z-index: 1;
+  transform: scale(.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.video-playbtn:hover .video-overlay {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.video-top-disc {
+  position: relative;
+}
+.video-top-disc::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 30px;
+  top: 10px;
+  left: 37%;
+  background: #fff;
+}
+.video-top-disc::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 30px;
+  top: 10px;
+  right: 37%;
+  background: #fff;
+}
