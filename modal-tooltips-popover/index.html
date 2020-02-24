@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal</title>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+	<div class="left-side">
+		<div class="logo">
+			<h2>rusty</h2>
+		</div>
+
+		<ul class="mainmenu">
+			<li><a href="">Home</a></li>
+			<li><a href="">About</a></li>
+			<li><a href="">Contact</a></li>
+			<li><a href="">Others</a></li>
+			<li><a href="">Video</a></li>
+		</ul>
+
+		<div class="social-links">
+			<a href=""><i class="fa fa-facebook"></i></a>
+			<a href=""><i class="fa fa-twitter"></i></a>
+			<a href=""><i class="fa fa-youtube"></i></a>
+		</div>
+
+		<p class="copyright-text">Lorem ipsum dolor sit.</p>
+	</div>
+
+	<div class="right-side">
+		<div class="right-side-wrap">
+			<h2>Hello <span>Everyone</span></h2>
+
+			<!-- tooltip and popover -->
+			<p>Lorem <a href="#" data-toggle="tooltip" title="thank you" data-placement="top"> Hover</a> dolor sit amet <span data-toggle="tooltip" title="thanks" data-placement="right"> consectetur.</span></p>
+
+			<a href="#" class="boxed-btn" data-toggle="popover" title="header popover" data-content="this is the body of popover" data-placement="bottom">popover test</a>
+
+			<!-- modal start -->
+
+			<a href="" class="boxed-btn" data-toggle="modal" data-target="#learn-more-modal">Learn more</a>
+		</div>
+	</div>
+
+		<div class="modal fade modal-custom" id="learn-more-modal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-titel">Learn more about our company</h4>
+						<button class="close text-right" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						
+					</div>
+
+					<div class="modal-body">
+						<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, architecto.</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias porro placeat dicta nemo eos quia explicabo soluta ullam consequuntur accusamus id laboriosam unde quaerat velit consectetur molestias culpa, doloremque sequi. Facere repellendus eligendi quibusdam voluptas.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos commodi nobis fugit ex, cupiditate dolor earum vitae ipsa reiciendis nisi nesciunt veritatis vero, tempore porro?</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	
+
+
+	<script src="js/jQuery v3.4.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+
+	<script src="js/main.js"></script>
+
+
+
+<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover()
+	});
+
+
+</script>
+</body>
+</html>

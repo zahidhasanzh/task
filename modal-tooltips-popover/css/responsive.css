@@ -1,0 +1,48 @@
+/*Medium layout 1200px*/
+@media only screen and (min-width: 992px) and (max-width:1200px){
+
+}
+
+/*Tablet layout 768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+}
+
+
+/* Wide Mobile layout 480px*/
+@media only screen and (min-width:480px) and (max-width:767px){
+
+}
+
+/*Medium layout 320px*/
+@media only screen  and (max-width:767px){
+	
+.left-side {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.right-side{
+	margin-left:0;
+	width:100%;
+	padding:0;
+	margin-top:-16px;
+}
+.logo{
+	margin:0;
+	padding:35px 0px;
+}
+.logo::before {
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
+	margin-top: -50px;
+}
+.mainmenu{
+	padding-top:15px;
+}
+.social-links{
+	margin-top:50px;
+}
+
+}
