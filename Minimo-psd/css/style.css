@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:400;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.blog-meta, .read-more-btn{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:300;
+}
+.blog-meta{
+	text-transform: uppercase;
+}
+.blog-meta a{
+	color:#b4ad9e;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: right;
+}
+.main-menu ul li {
+	display: inline-block;
+	padding-left: 75px;
+}
+.main-menu ul li a {
+	display:block;
+	text-transform:uppercase;
+	color:#626262;
+	padding: 50px 0;
+}
+.logo {
+	padding: 50px 0;
+}
+.blog-featured-content {
+	margin-bottom: 20px;
+}
+.blog-featured-content img {
+	width: 100%;
+}
+.big-blog-box .blog-featured-content {
+	margin-bottom: 70px;
+}
+.singel-blog-item {
+	margin-bottom: 70px;
+}
+.singel-blog-item h2 a{
+	color:#626262;	
+}
+.singel-blog-item h2 {
+	margin: 18px 0 22px;
+}
+.read-more-btn {
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+.blog-box-content {
+	margin-bottom: 20px;
+}
+.newsletter-area {
+	background: #f0f0f0;
+	padding: 50px 0;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.newsletter-area h2 {
+	margin-bottom: 40px;
+}
+.newsletter-form {
+	max-width: 378px;
+	margin: 0 auto;
+	border-bottom: 1px solid #000;
+	position:relative;
+}
+.newsletter-form input[type="text"] {
+	border: none;
+	background: #f0f0f0;
+	padding: 10px;
+	width: 100%;
+}
+.newsletter-form button {
+	position: absolute;
+	right: 0;
+	top: 0;
+	border: none;
+	padding: 10px;
+}
+.load-more-btn {
+	display: inline-block;
+	font-size: 18px;
+	color: #626262;
+	border: 1px solid #626262;
+	padding: 10px 18px;
+}
+.footer-area {
+	background: #f0f0f0;
+	padding: 30px 0;
+	margin-top: 70px;
+}
+.footer-area a {
+	color: #000;
+}
+.footer-area ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-area ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-area .text-right a {
+	padding-left: 20px;
+}
+.footer-area {
+	background: #f0f0f0;
+	padding: 30px 0;
+}
+.big-blog-box .blog-featured-content {
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
