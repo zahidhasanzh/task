@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+.row.margin-right{
+	margin-right:0;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.gradient-overlay-wrapper{
+	background-image:url(../img/header-bg.jpg);
+}
+.gradient-overlay-wrapper::after{
+	background: #de27b6;
+	background: -moz-linear-gradient(left,  #de27b6 0%, #4253b2 100%); 
+	background: -webkit-linear-gradient(left,  #de27b6 0%,#4253b2 100%); 
+	background: linear-gradient(to right,  #de27b6 0%,#4253b2 100%); 
+}
+
+.gradient-overlay-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.gradient-overlay-wrapper::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: .9;
+}
+.logo img {
+  max-width: 120px;
+  height: 80px;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: #fff;
+  display: block;
+  opacity: .6;
+  font-size: 14px;
+  padding: 28px;
+}
+.main-menu ul li a:hover {
+  opacity: 1;
+}
+.header-area {
+  position: relative;
+  z-index: 1;
+  padding:20px;
+  
+}
+.header-area::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background: #fff;
+  opacity: 0.1;
+}
+.mobile-screen {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.hero-text {
+	max-width: 500px;
+	color: #fff;
+	font-size: 17px;
+	padding-top: 130px;
+	padding-bottom: 70px;
+}
+.hero-text h1 {
+	font-size: 42px;
+	line-height: 1.2;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.hero-text p{
+	opacity: .6;
+}
+.hero-btns {
+	margin-top: 40px;
+}
+.bordered-btn {
+	border: 1px solid #fff;
+}
+.under-line-btn {
+	text-decoration: underline;
+}
+.hero-btns a {
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 10px 25px;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+
+
+
+
+
