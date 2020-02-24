@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:400;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.wellcome-area{
+	background-image:url(../img/bg2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+html, body {
+  height: 100%;
+}
+.wellcome-area {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.wellcome-area-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+.wellcome-area h2 {
+	font-size: 50px;
+	font-weight: 400;
+}
+.wellcome-area h3 {
+	font-size: 30px;
+	font-weight: 400;
+}
+.email-subcribe-form {
+	width: 400px;
+	margin: 40px auto;
+}
+
+.email-subcribe-form {
+  width: 400px;
+  margin: 40px auto;
+}
+.email-subcribe-form input {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-style: italic;
+}
+.email-subcribe-form input[type="submit"] {
+  background-color: #FFCB3F;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 20px;
+}
+/*count down*/
+
+.single-countdown-item {
+  font-size: 80px;
+  line-height:30px;
+  display: inline-block;
+  text-align:center;
+  padding:20px;
+}
+.single-countdown-item span {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform:uppercase;
+  font-weight:700;
+}
+
+
+
+
+
+
