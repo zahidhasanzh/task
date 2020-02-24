@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.section-padding{padding:80px 0;}
+.food-box-info h3{font-family: 'Great Vibes', cursive;}
+.food-box-bg{background:url(../img/bg1.jpg);}
+.food-box-bg-2{background:url(../img/bg2.jpg);}
+.food-box-bg-3{background:url(../img/bg3.jpg);}		
+
+
+.food-box-bg {
+	height: 300px;
+	margin-left: -15px;
+	margin-right: -15px;
+	background-size: cover;
+	background-color: #ddd;
+	background-position: center;
+}
+.food-box-info {
+  background: #F3F4F4;
+  padding: 30px;
+  border-top: 4px solid #D19735;
+  margin-top: -100px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition:.3s;
+}
+.food-box-info h3{
+	font-size:40px;
+}
+.food-box-info h2{
+	font-size:25px;
+}
+p.food-price span {
+	font-weight: 700;
+	font-size: 200%;
+}
+a.bordered-btn {
+  font-size: 14px;
+  border: 1px solid #D19735;
+  padding: 10px 25px;
+  color: #D19735;
+  text-transform: uppercase;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.single-food-box:hover .food-box-info {
+	background: #D19735;
+	color: #fff;
+}
+.single-food-box:hover .food-box-info h3 {
+	color: #FFFE00;
+}
+.single-food-box:hover a.bordered-btn{
+	color:#fff;
+	border-color:#fff;
+}
