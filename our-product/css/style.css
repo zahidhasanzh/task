@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	color:#3C3C3C;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.section-padding {
+  padding: 80px 0;
+}
+.section-titel {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 90px;
+}
+.product-img-wrap {
+  background: #F1F1F1;
+  display: table;
+  width: 100%;
+  height: 320px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  position: relative;
+  /*! transition: .3s; */
+}
+.product-img-wrap-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-product-box {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 50px;
+  display:block;
+}
+.single-product-box h4 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.product-price {
+  font-size: 35px;
+  color: #F6545F;
+  font-weight: 700;
+}
+.single-product-box::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:url(../img/map.png) no-repeat scroll center top #3B3B3B;
+  background-size:cover;
+  z-index: -1;
+  transition: .3s;
+  opacity: 0;
+}
+.product-hover-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  z-index: 2;
+  text-align: left;
+  padding: 0 20px;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.product-hover-links a {
+  color: #fff;
+  width: 30px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 45px;
+}
+.product-hover-links a.bordered-link {
+  border: 2px solid #BE3C38;
+  width: 50px;
+}
+.single-product-box:hover:after {
+  top: -10%;
+  height: 120%;
+  opacity: 1;
+}
+.single-product-box:hover .product-img-wrap {
+  background: none;
+}
+.single-product-box:hover .product-hover-links {
+  top: -10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
