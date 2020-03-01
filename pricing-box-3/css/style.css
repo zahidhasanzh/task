@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+
+.pricings-tables {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.single-pricing-box {
+  width: 33.33333%;
+  float: left;
+  box-shadow: 0 0 10px #ECECEC;
+  position: relative;
+  z-index: 1;
+  background: #fff;
+  margin-top:30px;
+}
+.pricing-heading {
+  background: #F9F9F9;
+  padding: 60px;
+
+}
+.pricing-heading h4 {
+  font-size: 30px;
+  color: #88888A;
+  font-weight: 400;
+}
+.pricing-heading h1 {
+  font-size: 50px;
+  font-weight: 400;
+  color: #333333;
+}
+.pricing-content {
+  padding: 40px;
+  font-size: 20px;
+}
+.pricing-content ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 35px;
+}
+.pricing-btn {
+  display: inline-block;
+  border: 1px solid #FC103C;
+  color: #FC103C;
+  padding: 5px 20px;
+  border-radius: 50px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.active .pricing-heading {
+  background: #FF3141;
+  color: #fff;
+  margin-top: 0;
+}
+.active .pricing-heading h4,.active .pricing-heading h1 {
+  color: #fff;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.single-pricing-box.active {
+  position: relative;
+  z-index: 2;
+  margin-left: -.5%;
+  margin-right: -.5%;
+  width: 34.3333%;
+}
+.active .pricing-content {
+	padding: 70px 60px;
+}
+.active .pricing-btn{
+	color:#fff;
+	background:#FF3141;
+}
+.active .pricing-heading{
+	overflow:hidden;
+}
+.active .pricing-heading::after {
+	position: absolute;
+	content: "Featured";
+	top: 18px;
+	right: -42px;
+	background-color: #fff;
+	color: #FF3141;
+	transform: rotate(46deg);
+	padding: 5px 50px;
+}
+.single-pricing-box.active{
+	overflow:hidden;
+	  margin-top:0;
+}
+
