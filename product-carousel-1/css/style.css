@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:400;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.section-padding.durk-bg {
+  background: #313131;
+  color: #C8C8C8;
+}
+.trailor-text {
+	font-size: 15px;
+	line-height: 1.7;
+	padding-top: 60px;
+}
+.trailor-text h2 {
+  font-size: 28px;
+  color: #fff;
+  line-height: 40px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-weight: 500;
+  position: relative;
+  z-index: 1;
+}
+.bordered-btn {
+  color: #fff;
+  border: 2px solid #F84E4B;
+  padding: 8px 10px;
+  width: 180px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.bordered-btn i.fa {
+  float: right;
+  padding-top: 5px;
+}
+.trailor-text h2::after {
+  position: absolute;
+  content: "";
+  bottom: -6px;
+  left: 0;
+  width: 14px;
+  height: 3px;
+  background: #C54543;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.trailor-info {
+  position: relative;
+}
+.colored-pricing-box {
+	position: absolute;
+	background: #FF4F4C;
+	width: 200px;
+	right: 140px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+	height: 300px;
+}
+.colored-pricing-box p {
+  opacity: .5;
+}
+.colored-pricing-box p.price-text {
+	opacity: 1;
+	color: #fff;
+	font-size: 30px;
+}
+.absolute-shoping-cart {
+	position: absolute;
+	top: 30px;
+	left: -20px;
+	background: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	box-shadow: 0 0 10px #666;
+}
+.trailor-info img {
+	position: relative;
+	z-index: 1;
+	padding-top: 156px;
+}
+div.owl-carousel .owl-item .trailor-info img {
+	display: inline-block;
+	width: auto;
+}
+
+.featured-trailors-carousel button.owl-dot:nth-child(1) span:before{
+	content:"01";
+}
+.featured-trailors-carousel button.owl-dot:nth-child(2) span:before{
+	content:"02";
+}
+.featured-trailors-carousel button.owl-dot:nth-child(3) span:before{
+	content:"03";
+}
+.featured-trailors-carousel button.owl-dot {
+	display: block;
+	border-left:1px solid #999;
+	padding:20px 10px !important;
+}
+.featured-trailors-carousel button.owl-dot.active{
+	border-color:#FF614D;
+}
+.featured-trailors-carousel .owl-dots{
+	position:absolute;
+	right:0;
+	top:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
