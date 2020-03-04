@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mr+De+Haviland&display=swap&subset=latin-ext');
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+html,body{
+	height:100%;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+.hero-area-logo h3{
+	font-family: 'Mr De Haviland', cursive;
+}
+.welcome-hero-area{
+	background:url(../img/food-bg.jpg);
+	height:100%;
+	position:relative;
+}
+.header-area {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.logo a {
+	text-transform: uppercase;
+	color: #fff;
+	position: relative;
+}
+
+.logo h1 {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  margin: 0;
+}
+.logo a::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding-left: 30px;
+}
+.main-menu ul li a {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 18px;
+}
+.main-menu ul li a::after {
+  position: absolute;
+  content: "";
+  bottom: 4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fff;
+}
+.main-menu {
+  margin-top: 3px;
+}
+.welcome-hero-area::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  opacity: .3;
+  z-index: -1;
+}
+.hero-area-table {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.hero-area-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.scroll-top-about {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  color: #fff;
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  opacity: .8;
+}
+.hero-area-logo h3 {
+	font-size: 100px;
+	color: #D0B077;
+	line-height: 20px;
+	text-transform:none;
+}
+.hero-area-logo h2 {
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 7px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+.bordered-area {
+	overflow: hidden;
+	max-width: 330px;
+	margin: 0 auto;
+}
+.bordered-area-left-border, .bordered-area-right-border {
+	height: 2px;
+	width: 37%;
+	background: #fff;
+	float: left;
+	margin-top: 6px;
+}
+.bordered-area i.fa {
+	float: left;
+	margin: 0 25px;
+	color:#7D6941;
+	font-size:15px;
+}
+.hero-area-logo {
+	text-transform: uppercase;
+	color: #fff;
+}
+.hero-area-logo p {
+	margin-top: 10px;
+}
+
+.bordered-area-left-border{
+	position:relative;
+	margin-left:10px;
+}
+.bordered-area-left-border::before {
+	position: absolute;
+	content: "";
+	left: -7px;
+	top: -4px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 9px solid #fff;
+	border-bottom: 5px solid transparent;
+}
+.bordered-area-right-border{
+	position:relative;
+	margin-right:10px;
+}
+.bordered-area-right-border::before {
+	position: absolute;
+	content: "";
+	right: -7px;
+	top: -4px;
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-right: 9px solid #fff;
+	border-bottom: 5px solid transparent;
+}
