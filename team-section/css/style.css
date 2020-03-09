@@ -1,0 +1,93 @@
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:400;
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+
+.section-padding {
+  padding: 50px 0;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.section-heading h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.single-team-item img {
+  border: 2px solid #333;
+}
+.team-social-icon {
+  background: #549B39;
+  text-align: center;
+  padding: 5px;
+}
+.team-social-icon a {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.single-team-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10px;
+}
+.single-team-item h4 span {
+  display: block;
+  color: #549B39;
+  font-weight: 300;
+  font-size: 80%;
+  margin-top: 4px;
+}
+.team-social-icon {
+	background: #549B39;
+	text-align: center;
+	padding: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: -28px;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+
+
+
+
