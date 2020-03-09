@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	margin:0;
+	padding:0;
+}
+button:focus{
+	outline:0;
+}
+a:focus{
+	outline:0 solid;
+}
+img{
+	max-width:100%;
+	height:auto;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0 0 15px;
+	font-weight:normal;
+	font-family: 'Asiyah Script';
+}
+.clear{
+	margin:0;
+	padding:0;
+}
+a:hover{
+	text-decoration:none;
+}
+html, body{
+	height:100%;
+}
+body {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	line-height: 1.714;
+	font-size:14px;
+}
+
+
+.carousel-bg-1{background-image:url(../img/bg-1.jpg);}
+.carousel-bg-2{background-image:url(../img/bg-2.jpg);}
+.carousel-bg-3{background-image:url(../img/bg-3.jpg);}
+
+.single-carousel-item {
+  height: 100%;
+  display: table;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.carousel-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.carousel-item-tablecell h2 {
+  font-size: 120px;
+  margin-bottom: 0;
+}
+.boxed-btn {
+  background: #D7085D;
+  display: inline-block;
+  padding: 8px 25px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+
+.homepage-slide, .homepage-slide div {
+  height: 100%;
+}
+.homepage-slide div.carousel-item-tablecell,
+.homepage-slide div.carousel-item-tablecell div,
+.homepage-slide .owl-nav,
+.homepage-slide .owl-dots
+ {
+  height: auto;
+}
+
+.homepage-slide .owl-nav button.owl-prev,
+.homepage-slide .owl-nav button.owl-next{
+    display:block;
+    position:absolute;
+    left:50px;
+    top:50%;
+    font-size:50px;
+    color:#fff;
+    line-height:60px;
+    margin-top:-20px;
+}
+.homepage-slide .owl-nav button.owl-next{
+  left:auto;
+  right:50px;
+}
+.homepage-slide .owl-dots img {
+	width: 100px;
+	height: 100px;
+}
+.homepage-slide .owl-dots div{
+	display:inline-block;
+	margin-left: 20px;
+}
+.homepage-slide .owl-dots{
+	position: absolute;
+	right:20%;
+	bottom:0;
+}
+.owl-dot{
+  margin:5px;
+  padding:10px;
+  background-color:lightgray;
+  display:inline-block;
+}
