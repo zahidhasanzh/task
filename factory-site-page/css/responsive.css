@@ -1,0 +1,71 @@
+/*Medium layout 1200px*/
+@media only screen and (min-width: 992px) and (max-width:1200px){
+.header-top i.fa.fa-phone {
+    padding-left: 10px;
+}
+.social-links {
+    padding-left: 15px;
+}
+.cta-area h2 {
+    font-size: 16px;
+}
+.slide-area .owl-dots{
+    width:930px;
+}
+}
+
+/*Tablet layout 768px*/
+@media only screen and (min-width: 768px) and (max-width:991px){
+
+}
+@media only screen  and (max-width:991px){
+.header-top {
+    text-align: center;
+}
+.header-area {
+    text-align: center;
+}
+.single-slide-item h2 {
+    font-size:44px;
+}
+.slide-area .owl-dots{
+    width:700px;
+}.single-team-member {
+    margin-bottom: 50px;
+}
+.mobile-menu span{
+        display:block;
+}
+.main-menu{
+	display: none;
+}
+.social-links{
+    display:none;
+}
+.text-right {
+    text-align: center !important;
+}
+.header-top i.fa.fa-phone {
+    padding-left: 10px;
+}
+}
+/* Wide Mobile layout 480px*/
+@media only screen and (min-width:480px) and (max-width:767px){
+    .single-slide-item h2 {
+    font-size: 32px;
+}
+.slide-area .owl-dots {
+    width: 450px;
+}
+.single-service-box {
+    margin-bottom: 30px;
+}
+.cta-area h2 {
+    line-height: 25px;
+}
+}
+
+/*Medium layout 1200px*/
+@media only screen and (min-width: 360px) and (max-width:479px){
+
+}
