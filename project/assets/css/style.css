@@ -1,0 +1,571 @@
+/* 
+Site Name:
+Version: 
+Author: 
+Author 
+*/
+/* ===============
+css index
+
+*base css
+*header css
+*header sticky css
+*hero css
+*shape element css
+*digital agency css
+*our clients css
+*newsletter css
+*footer css
+===============*/
+
+/* ~~~~~~~~~~~~~~~~~~~~ base css ~~~~~~~~~~~~~~~~~~ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+/* background color */
+.header_bg {
+    background: linear-gradient(-45deg, #10C4D6, #00337f);
+}
+.gray_bg {
+    background: #deeffa;
+}
+.soft_pink {
+    background: #fffafa;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid;
+}
+
+button {
+    cursor: pointer;
+}
+button {
+    transition: 0.03s all ease-out;
+    -webkit-transition: 0.03s all ease-out;
+    -moz-transition: 0.03s all ease-out;
+    -ms-transition: 0.03s all ease-out;
+    -o-transition: 0.03s all ease-out;
+}
+a:hover {
+    text-decoration: none;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    margin-bottom: 16px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: #000;;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn {
+    color: #fff;
+    border: medium none;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px 18px;
+    margin-bottom: 0;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    position: relative;
+}
+.btn_border {
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btn_border:hover {
+    color: #e5e9f0;
+    border-color: #e5e9f0;
+    background: #ffffff4d;
+}
+.btn_squ {
+    border-color: #dee2e8;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.bg_btn {
+    background: #0275b7;
+    width: 375px;
+}
+.bg_btn:hover {
+    background: #0282cb;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+.pos_relative {
+    position: relative;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.img {
+    max-width: 100%;
+}
+ul li {
+    list-style: none;
+}
+
+/* ~~~~~~~~~~~~~~~~~ header css ~~~~~~~~~~~~~~~~ */
+.header_absoluate {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+/*Sticky Menu*/
+.secondary{
+    background:#fff;
+}
+.header_area.secondary ul li a{
+    color:#000000de;
+}
+.header_area.secondary .btn_border{
+    color:#000000de;
+    border-color: #000000de;
+}
+.header_area.secondary .btn{
+    color:#000000de;
+}
+.header_area{
+    -webkit-transition:all .5s ease-in-out;
+    transition:all .5s ease-in-out;
+}
+.header_area {
+    color: #fff;
+}
+
+.main_menu ul {
+    margin: 0;
+}
+.main_menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.main_menu ul li a {
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 22px 0;
+    display: block;
+    font-size: 16px;
+}
+.main_menu ul li a i.fa {
+    font-size: 18px;
+}
+.main_menu ul li:hover > a, a.signin_btn:hover {
+    color:#ffffffcc
+}
+.main_menu ul li ul.submenu {
+    position: absolute;
+    top: 110%;
+    left: -75px;
+    width: 215px;
+    background: #fff;
+    text-align: left;
+    box-shadow: 0px 15px 30px 0px rgb(0, 3, 143, 0.1);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    padding: 20px 0;
+    padding-bottom: 15px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 333;
+}
+.main_menu ul li ul.submenu::before {
+    position: absolute;
+    content: "";
+    border: 10px solid transparent;
+    border-top: 0;
+    left: 45%;
+    border-bottom-color: #fff;
+    top: -10px;
+}
+.main_menu ul li:hover > ul.submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.main_menu ul li ul.submenu li {
+    display: block;
+    margin: 0;
+}
+.main_menu ul li ul.submenu li a {
+    padding: 9px 25px;
+    text-transform: capitalize;
+    color:#000;
+}
+.main_menu ul li ul.submenu li a:hover{
+    background:#F6F9FC;
+    color: #028fdf;
+    
+}
+
+
+.border_bottom{
+    border-bottom: 1px solid #e5e5e538;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ slider area ~~~~~~~~~~~~~~~~~~~~~ */
+.slider_area {
+    position: relative;
+}
+.slider_height {
+    min-height: 650px;
+}
+.slider_text h1 {
+    font-size: 50px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.slider_text p {
+    margin-bottom: 46px;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 8px;
+}
+.slider_text {
+    padding-top: 75px;
+}
+.search_box{
+    position: relative;
+}
+.search_box input {
+    width: 100%;
+    background: #fff;
+    padding: 17px 40px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+.search_box input[type="button"] {
+    position: absolute;
+    top: 7px;
+    right: 8px;
+    cursor: pointer;
+    color: #fff;
+    background: #028fdf;
+    border: 0px;
+    width: 85px;
+    height: 45px;
+    border-radius: 3px;
+    outline: none;
+    text-transform: capitalize;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    padding: 9px;
+}
+.search_box i.fa {
+    position: absolute;
+    left: 11px;
+    top: 21px;
+    color: #C6C6C6;
+}
+.slider_img img {
+    max-width: 100%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~ section titel area ~~~~~~~~~~~~~~~~~~~~~ */
+.section_titel p.small {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.section_titel p{
+    padding: 0 15px;
+}
+.section_titel h2 {
+    color: #000000de;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~ brand slide area ~~~~~~~~~~~~~~~~~~~~~ */
+.brand_active.owl-carousel .owl-item img {
+    width: auto;
+    display: inline-block;
+}
+.single_brand {
+    text-align: center;
+}
+.brand_active .owl-nav {
+    width: 100%;
+}
+.brand_active .owl-nav div {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background: #00cc70;
+    color: #fff;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 50%;
+    left: -30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ flipbook list area ~~~~~~~~~~~~~~~~~~~~~ */
+.stepper_number {
+    height: 30px;
+    width: 30px;
+    font-size: 19px;
+}
+.flipbook_list_area strong {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 26px;
+    font-weight: 700;
+}
+.flipbook_list_area strong a{
+    color:#028fdf;
+}
+.flipbook_list_area strong a:hover{
+    color:#026fac
+}
+/* ~~~~~~~~~~~~~~~~~~~~ flipbook list area ~~~~~~~~~~~~~~~~~~~~~ */
+.shine_effect {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    transition: all .15s ease-in-out;
+}
+.shine_effect:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.15);
+    cursor: pointer;
+}
+
+
+.shine_effect:after {
+    content: "";
+    position: absolute;
+    top: -110%;
+    left: -210%;
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+    transform: rotate(45deg);
+    background: rgba(255, 255, 255, 0.13);
+    background: linear-gradient(      to right,       rgba(255, 255, 255, 0.13) 0%,      rgba(255, 255, 255, 0.13) 77%,      rgba(255, 255, 255, 0.5) 92%,      rgba(255, 255, 255, 0.0) 100%    );
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+  
+  /* Hover state - trigger effect */
+  
+  .shine_effect:hover:after {
+    opacity: 1;
+    top: -30%;
+    left: -30%;
+    transition-property: left, top, opacity;
+    transition-duration: 1.3s, 1.3s, 0.70s;
+    transition-timing-function: ease;
+  }
+  
+  
+  
+.tesimonial_bg{
+    background: linear-gradient(-45deg, #10C4D6, #00337f);
+}
+.display_4 {
+    font-weight: 300;
+    line-height: 1.37;
+    font-size: 27px;
+    color: #fff;
+}
+
+.testimonial_area .name_bg {
+    background-color: #415368;
+    border-radius: 50px;
+}
+.author_name h3 {
+    font-size: 29px;
+    color: #fff;
+}
+.author_name h4 {
+    color: #c4cbd8;
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+/*  */
+.single_service {
+    box-shadow: none;
+    padding: 10px;
+}
+.service_icon {
+    margin-bottom: 40px;
+}
+.service_text h3 {
+    font-size: 22px;
+    line-height: 29px;
+    color:#000000de;
+    margin-bottom: 30px;
+}
+.service_text p {
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+/*  */
+.small_subtitle {
+    font-size: 18px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~ flipbook list area ~~~~~~~~~~~~~~~~~~~~~ */
+.footer_area h4 {
+    font-size: 16px;
+    color: #000000de;
+}
+.footer_area a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000de;
+}
+.footer_area ul {
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    text-align: left;
+}
+.dropdown .btn {
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 50px;
+}
+.dropdown-menu a {
+    font-size: 18px;
+}
+.dropdown-menu {
+    width: 215px;
+    height: 250px;
+    border:none;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.175);
+}
+.social_links{
+    width: 150px;
+}
+.social_links li {
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 5px;
+}
+.social_links  li a {
+    color: #383638;
+    display: inline-block;
+    padding: 11px;
+    padding-right: 0;
+    padding-left: 20px;
+}
+.footer_area li> i.fa{
+    margin-right: 5px;
+}
+.footer_area li i.fa, .social_links li a i.fa {
+    font-size: 21px;
+    color: #000000de;
+}
+.copyright_area {
+    padding: 46px 20px;
+    padding-bottom: 0;
+}
+.footer_area ul li a:hover{
+    color:#007bff;
+}
